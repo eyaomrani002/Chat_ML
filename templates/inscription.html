@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISET Assistant - Inscription</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif, Arial, Helvetica;
+            transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        @supports not (backdrop-filter: blur(12px)) {
+            .glass-effect {
+                background: rgba(255, 255, 255, 0.9);
+            }
+        }
+
+        .animated-button {
+            transform: scale(1);
+            transition: transform 0.2s ease, opacity 0.3s ease;
+            font-size: 0.875rem;
+        }
+
+        .animated-button:hover:not(:disabled) {
+            transform: scale(1.02);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .animated-button:active {
+            transform: scale(0.96);
+        }
+
+        .animated-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        input:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+            outline: none;
+        }
+
+        .alert-error {
+            background: #fee2e2;
+            color: #991b1b;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 10px 0;
+            animation: fadeIn 0.5s ease-in-out;
+            font-size: 0.875rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Support pour le mode sombre */
+        @media (prefers-color-scheme: dark) {
+            .glass-effect {
+                background: rgba(31, 41, 55, 0.95);
+                border-color: rgba(255, 255, 255, 0.1);
+            }
+            input, select {
+                background: #374151;
+                color: #e5e7eb;
+                border-color: #4b5563;
+            }
+            .alert-error {
+                background: #7f1d1d;
+                color: #f3e8e8;
+            }
+        }
+
+        /* Responsive design */
+        @media (max-width: 640px) {
+            .glass-effect {
+                margin: 0 8px;
+                padding: 16px;
+            }
+            input, select {
+                padding: 12px 16px;
+                font-size: 0.75rem;
+            }
+            .animated-button {
+                padding: 10px 12px;
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 to-blue-50 flex items-center justify-center min-h-screen p-4">
+    <div class="glass-effect w-full max-w-md p-8">
+        <!-- En-tête -->
+        <div class="flex items-center justify-center mb-8">
+            <i class="fas fa-robot text-3xl text-indigo-600 mr-3"></i>
+            <h1 class="text-2xl font-bold text-indigo-600">ISET Assistant</h1>
+        </div>
+
+        <!-- Formulaire d'inscription -->
+        <form id="registerForm" class="space-y-6">
+            <div>
+                <label for="fullName" class="block text-sm font-medium text-gray-700">Nom complet</label>
+                <input id="fullName" name="fullName" type="text" required
+                       class="w-full p-4 mt-1 rounded-lg border-2 border-indigo-100 focus:border-indigo-300 focus:ring-0"
+                       placeholder="Entrez votre nom complet">
+            </div>
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input id="email" name="email" type="email" required
+                       class="w-full p-4 mt-1 rounded-lg border-2 border-indigo-100 focus:border-indigo-300 focus:ring-0"
+                       placeholder="Entrez votre email">
+            </div>
+            <div>
+                <label for="password" class="block text-sm font-medium text-gray-700">Mot de passe</label>
+                <input id="password" name="password" type="password" required
+                       class="w-full p-4 mt-1 rounded-lg border-2 border-indigo-100 focus:border-indigo-300 focus:ring-0"
+                       placeholder="Entrez votre mot de passe">
+            </div>
+            <div>
+                <label for="confirmPassword" class="block text-sm font-medium text-gray-700">Confirmer le mot de passe</label>
+                <input id="confirmPassword" name="confirmPassword" type="password" required
+                       class="w-full p-4 mt-1 rounded-lg border-2 border-indigo-100 focus:border-indigo-300 focus:ring-0"
+                       placeholder="Confirmez votre mot de passe">
+            </div>
+            <div class="flex items-center">
+                <label class="flex items-center space-x-2">
+                    <input type="checkbox" id="acceptTerms" name="acceptTerms" class="form-checkbox h-5 w-5 text-indigo-600 rounded-lg border-2" required aria-label="Accepter les conditions">
+                    <span class="text-gray-600">J'accepte les conditions d'utilisation</span>
+                </label>
+            </div>
+            <div id="errorMessage" class="alert-error hidden" role="alert" aria-live="assertive"></div>
+            <button type="submit" class="animated-button w-full bg-indigo-600 text-white p-4 rounded-lg hover:bg-indigo-700">
+                <i class="fas fa-user-plus mr-2"></i> S'inscrire
+            </button>
+        </form>
+
+        <!-- Lien de connexion -->
+        <p class="mt-6 text-center text-sm text-gray-600">
+            Déjà un compte ? 
+            <a href="/login" class="text-indigo-600 hover:text-indigo-800 font-medium">Se connecter</a>
+        </p>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script>
+        const registerForm = document.getElementById('registerForm');
+        const errorMessage = document.getElementById('errorMessage');
+
+        registerForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const fullName = document.getElementById('fullName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value.trim();
+            const confirmPassword = document.getElementById('confirmPassword').value.trim();
+            const acceptTerms = document.getElementById('acceptTerms').checked;
+
+            // Validation client-side
+            if (!fullName || !email || !password || !confirmPassword) {
+                showError('Veuillez remplir tous les champs.');
+                return;
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                showError('Veuillez entrer un email valide.');
+                return;
+            }
+            if (password !== confirmPassword) {
+                showError('Les mots de passe ne correspondent pas.');
+                return;
+            }
+            if (!acceptTerms) {
+                showError('Vous devez accepter les conditions d\'utilisation.');
+                return;
+            }
+
+            try {
+                const response = await fetch('/register', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ fullName, email, password })
+                });
+                const data = await response.json();
+                if (!response.ok) {
+                    throw new Error(data.error || 'Échec de l\'inscription.');
+                }
+                window.location.href = '/login'; // Rediriger vers la page de connexion
+            } catch (error) {
+                showError(error.message);
+            }
+        });
+
+        function showError(message) {
+            errorMessage.textContent = message;
+            errorMessage.classList.remove('hidden');
+            errorMessage.focus();
+            setTimeout(() => errorMessage.classList.add('hidden'), 5000);
+        }
+    </script>
+</body>
+</html>
