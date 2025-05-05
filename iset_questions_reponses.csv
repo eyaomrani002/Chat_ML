@@ -1,0 +1,166 @@
+Question,Réponse,Lien,Catégorie,Rating
+"Quels sont les horaires des cours d’informatique ?","Les horaires sont disponibles sur le portail étudiant. Consultez la section Horaires.","http://iset.example.com/horaires","Horaires",0
+"Quand commence le semestre ?","Le semestre commence le 1er septembre. Vérifiez le calendrier universitaire.","http://iset.example.com/calendrier","Horaires",0
+"À quelle heure est le cours d’Algorithmique ?","Le cours d’Algorithmique est prévu le lundi de 8h à 10h. Consultez le portail.","http://iset.example.com/horaires","Horaires",0
+"Y a-t-il des cours le samedi ?","Certains cours pratiques ont lieu le samedi. Vérifiez votre emploi du temps.","http://iset.example.com/horaires","Horaires",0
+"Quel est l’horaire du cours de Python le lundi ?","Le cours de Python est de 10h à 12h en salle A-101. Consultez le portail.","http://iset.example.com/horaires","Horaires",0
+"Où trouver l’emploi du temps de Génie Civil ?","L’emploi du temps est sur le portail étudiant, section Génie Civil.","http://iset.example.com/horaires","Horaires",0
+"Quand a lieu le cours de Réseaux ?","Le cours de Réseaux est le mercredi de 14h à 16h. Vérifiez le portail.","http://iset.example.com/horaires","Horaires",0
+"Les cours sont-ils en ligne ou en présentiel ?","La plupart des cours sont en présentiel, certains en ligne. Consultez le portail.","http://iset.example.com/horaires","Horaires",0
+"Qui enseigne le cours de Programmation Python ?","Le cours est enseigné par le Pr. Dupont. Consultez le programme.","http://iset.example.com/programmes","Professeurs",0
+"Comment contacter un professeur ?","Les coordonnées des professeurs sont sur le portail enseignant.","http://iset.example.com/enseignants","Professeurs",0
+"Qui est le responsable du département Génie Civil ?","Le Pr. Martin est responsable. Contactez-le via le portail.","http://iset.example.com/departements","Professeurs",0
+"Quels sont les horaires de bureau des professeurs ?","Les horaires de bureau sont sur le portail enseignant.","http://iset.example.com/enseignants","Professeurs",0
+"Qui enseigne Bases de données ?","Le cours est enseigné par Mme. Leclerc. Consultez le programme.","http://iset.example.com/programmes","Professeurs",0
+"Comment prendre rendez-vous avec un professeur ?","Envoyez un email via le portail enseignant pour un rendez-vous.","http://iset.example.com/enseignants","Professeurs",0
+"Qui est le coordinateur des cours d’informatique ?","Le coordinateur est le Pr. Dubois. Contactez-le via le portail.","http://iset.example.com/departements","Professeurs",0
+"Où se déroule le cours de Bases de données ?","Le cours a lieu en salle B-204. Vérifiez l’affichage des salles.","http://iset.example.com/salles","Salles",0
+"Y a-t-il des salles libres pour étudier ?","Les salles libres sont indiquées sur le planning des salles.","http://iset.example.com/salles","Salles",0
+"Comment réserver une salle pour un projet ?","Les réservations se font via le bureau administratif.","http://iset.example.com/salles","Salles",0
+"Où trouver le plan des salles de l’ISET ?","Le plan des salles est sur le site, section Infrastructures.","http://iset.example.com/infrastructures","Salles",0
+"Quelle salle pour le cours de Mécanique ?","Le cours de Mécanique est en salle C-302. Vérifiez le planning.","http://iset.example.com/salles","Salles",0
+"Les salles ont-elles des projecteurs ?","La plupart des salles sont équipées de projecteurs. Vérifiez avec l’administration.","http://iset.example.com/salles","Salles",0
+"Quelles sont les branches disponibles à l’ISET ?","Les branches incluent Informatique, Génie Civil, et Gestion. Voir le site.","http://iset.example.com/branches","Branches",0
+"Quels cours sont proposés en Génie Civil ?","Les cours incluent Mécanique des structures et Hydraulique. Consultez le programme.","http://iset.example.com/programmes/genie-civil","Branches",0
+"Quelles sont les options en Informatique ?","Les options incluent Réseaux, Développement logiciel, et Data Science.","http://iset.example.com/programmes/informatique","Branches",0
+"Est-il possible de changer de branche ?","Oui, soumettez une demande au bureau académique avant la date limite.","http://iset.example.com/administration","Branches",0
+"Quels sont les prérequis pour la branche Gestion ?","Les prérequis sont indiqués dans le programme de Gestion.","http://iset.example.com/programmes/gestion","Branches",0
+"Quand aura lieu l’examen de Mathématiques ?","Les dates des examens sont publiées sur le calendrier universitaire.","http://iset.example.com/examens","Examens",0
+"Comment s’inscrire aux examens ?","L’inscription se fait via le portail étudiant avant la date limite.","http://iset.example.com/examens","Examens",0
+"Où trouver les résultats des examens ?","Les résultats sont publiés sur le portail étudiant.","http://iset.example.com/resultats","Examens",0
+"Que faire si je rate un examen ?","Contactez le bureau académique pour les sessions de rattrapage.","http://iset.example.com/examens","Examens",0
+"Quand est l’examen de Python ?","L’examen de Python est prévu en décembre. Consultez le calendrier.","http://iset.example.com/examens","Examens",0
+"Comment demander une révision d’examen ?","Soumettez une demande au bureau académique dans les 7 jours.","http://iset.example.com/examens","Examens",0
+"Comment demander un certificat de scolarité ?","Rendez-vous au bureau administratif avec votre carte d’étudiant.","http://iset.example.com/administration","Administration",0
+"Où payer les frais d’inscription ?","Les frais sont payables en ligne via le portail administratif.","http://iset.example.com/administration","Administration",0
+"Comment obtenir une carte d’étudiant ?","La carte est délivrée au bureau administratif après l’inscription.","http://iset.example.com/administration","Administration",0
+"Quels documents fournir pour l’inscription ?","Vous devez fournir une pièce d’identité, un certificat de bac, et une photo.","http://iset.example.com/inscription","Administration",0
+"Comment changer mes informations personnelles ?","Mettez à jour vos informations via le portail étudiant.","http://iset.example.com/administration","Administration",0
+"Comment postuler pour une bourse ?","Soumettez votre dossier via le portail des bourses avant la date limite.","http://iset.example.com/bourses","Bourses",0
+"Quels sont les critères pour une bourse ?","Les critères incluent le revenu familial et les résultats académiques.","http://iset.example.com/bourses","Bourses",0
+"Quand est la date limite pour demander une bourse ?","La date limite est le 15 octobre. Vérifiez sur le portail.","http://iset.example.com/bourses","Bourses",0
+"Comment savoir si ma demande de bourse est acceptée ?","Les résultats sont publiés sur le portail des bourses.","http://iset.example.com/bourses","Bourses",0
+"Quels types de bourses sont disponibles ?","Il y a des bourses de mérite et des aides financières. Consultez le portail.","http://iset.example.com/bourses","Bourses",0
+"Où trouver le règlement intérieur de l’ISET ?","Le règlement est disponible sur le site, section Ressources.","http://iset.example.com/ressources","Général",0
+"Comment accéder à la bibliothèque ?","La bibliothèque est ouverte aux étudiants avec une carte d’étudiant.","http://iset.example.com/bibliotheque","Général",0
+"Y a-t-il un accès Wi-Fi à l’ISET ?","Oui, connectez-vous avec vos identifiants étudiants. Voir la section IT.","http://iset.example.com/services-it","Général",0
+"Quels sont les clubs étudiants à l’ISET ?","Les clubs incluent Robotique, Culture, et Sports. Consultez la page des activités.","http://iset.example.com/activites","Général",0
+"Quand a lieu la journée portes ouvertes ?","La journée portes ouvertes est prévue en mars. Vérifiez le calendrier.","http://iset.example.com/evenements","Général",0
+"Comment signaler un problème technique ?","Contactez le service informatique via le portail IT.","http://iset.example.com/services-it","Général",0
+"Où trouver les offres de stage ?","Les offres de stage sont publiées sur le portail carrière.","http://iset.example.com/carriere","Général",0
+"Comment participer aux compétitions académiques ?","Inscrivez-vous via le bureau des activités étudiantes.","http://iset.example.com/activites","Général",0
+"Quels sont les horaires de la bibliothèque ?","La bibliothèque est ouverte de 8h à 18h du lundi au vendredi.","http://iset.example.com/bibliotheque","Bibliothèque",0
+"Comment emprunter un livre ?","Présentez votre carte d’étudiant à la bibliothèque.","http://iset.example.com/bibliotheque","Bibliothèque",0
+"Y a-t-il des ressources en ligne à la bibliothèque ?","Oui, accédez aux bases de données via le portail de la bibliothèque.","http://iset.example.com/bibliotheque","Bibliothèque",0
+"Comment réserver un livre ?","Les réservations se font via le portail de la bibliothèque.","http://iset.example.com/bibliotheque","Bibliothèque",0
+"Quels sont les services informatiques de l’ISET ?","Les services incluent Wi-Fi, comptes étudiants, et support technique.","http://iset.example.com/services-it","Services IT",0
+"Comment obtenir un compte étudiant ?","Le compte est créé automatiquement après l’inscription.","http://iset.example.com/services-it","Services IT",0
+"Que faire si j’oublie mon mot de passe ?","Réinitialisez votre mot de passe via le portail IT.","http://iset.example.com/services-it","Services IT",0
+"Comment accéder aux logiciels académiques ?","Les logiciels sont disponibles sur les ordinateurs du campus.","http://iset.example.com/services-it","Services IT",0
+"Quels sont les événements à venir à l’ISET ?","Les événements sont listés sur le calendrier des événements.","http://iset.example.com/evenements","Événements",0
+"Quand a lieu la cérémonie de remise des diplômes ?","La cérémonie est prévue en juin. Vérifiez le calendrier.","http://iset.example.com/evenements","Événements",0
+"Comment s’inscrire à un atelier ?","Inscrivez-vous via le portail des activités.","http://iset.example.com/activites","Événements",0
+"Y a-t-il des conférences à l’ISET ?","Oui, les conférences sont annoncées sur le site.","http://iset.example.com/evenements","Événements",0
+"Comment rejoindre le club de robotique ?","Inscrivez-vous via le bureau des activités étudiantes.","http://iset.example.com/activites","Clubs",0
+"Quelles sont les activités du club culturel ?","Le club organise des expositions et des spectacles. Voir le site.","http://iset.example.com/activites","Clubs",0
+"Y a-t-il un club de sport ?","Oui, le club de sport propose football, basketball, et plus.","http://iset.example.com/activites","Clubs",0
+"Comment organiser une activité étudiante ?","Soumettez une proposition au bureau des activités.","http://iset.example.com/activites","Clubs",0
+"Quelles sont les conditions pour un stage ?","Les stages doivent être validés par le département académique.","http://iset.example.com/carriere","Stages",0
+"Comment rédiger un rapport de stage ?","Les consignes sont sur le portail carrière.","http://iset.example.com/carriere","Stages",0
+"Où trouver des entreprises pour un stage ?","Consultez le portail carrière pour les partenariats.","http://iset.example.com/carriere","Stages",0
+"Les stages sont-ils rémunérés ?","Cela dépend de l’entreprise. Vérifiez avec le portail carrière.","http://iset.example.com/carriere","Stages",0
+"Comment valider mon stage ?","Soumettez votre rapport et obtenez l’approbation du département.","http://iset.example.com/carriere","Stages",0
+"Y a-t-il des cours de langue à l’ISET ?","Oui, des cours d’anglais et d’autres langues sont proposés.","http://iset.example.com/programmes","Cours",0
+"Quels sont les cours optionnels ?","Les cours optionnels sont listés dans le programme de votre branche.","http://iset.example.com/programmes","Cours",0
+"Comment s’inscrire à un cours optionnel ?","Inscrivez-vous via le portail étudiant.","http://iset.example.com/programmes","Cours",0
+"Quels sont les crédits pour le cours de Python ?","Le cours de Python vaut 6 crédits. Consultez le programme.","http://iset.example.com/programmes","Cours",0
+"Y a-t-il des cours du soir ?","Certains cours sont proposés en soirée. Vérifiez le portail.","http://iset.example.com/horaires","Horaires",0
+"Comment obtenir un relevé de notes ?","Le relevé est disponible sur le portail étudiant.","http://iset.example.com/administration","Administration",0
+"Quand est la date limite d’inscription ?","La date limite est le 30 août. Consultez le site.","http://iset.example.com/inscription","Administration",0
+"Comment demander un congé académique ?","Soumettez une demande au bureau académique.","http://iset.example.com/administration","Administration",0
+"Y a-t-il des frais pour les certificats ?","Les certificats sont gratuits pour les étudiants inscrits.","http://iset.example.com/administration","Administration",0
+"Comment vérifier mon statut d’inscription ?","Vérifiez votre statut sur le portail étudiant.","http://iset.example.com/administration","Administration",0
+"Quels sont les horaires du bureau administratif ?","Le bureau est ouvert de 9h à 16h du lundi au vendredi.","http://iset.example.com/administration","Administration",0
+"Comment demander une attestation de présence ?","Rendez-vous au bureau administratif avec votre carte d’étudiant.","http://iset.example.com/administration","Administration",0
+"Y a-t-il des bourses pour les étudiants internationaux ?","Oui, des bourses spécifiques sont disponibles. Consultez le portail.","http://iset.example.com/bourses","Bourses",0
+"Comment renouveler ma bourse ?","Soumettez une nouvelle demande chaque année via le portail.","http://iset.example.com/bourses","Bourses",0
+"Quels documents pour une demande de bourse ?","Fournissez un certificat de revenu et vos relevés de notes.","http://iset.example.com/bourses","Bourses",0
+"Y a-t-il des aides pour le logement ?","Des aides sont disponibles via le bureau des bourses.","http://iset.example.com/bourses","Bourses",0
+"Comment trouver un logement près de l’ISET ?","Consultez la section Logement sur le site.","http://iset.example.com/ressources","Général",0
+"Y a-t-il une cafétéria à l’ISET ?","Oui, la cafétéria est ouverte de 7h à 17h.","http://iset.example.com/ressources","Général",0
+"Quels sont les services de santé à l’ISET ?","Un centre médical est disponible sur le campus.","http://iset.example.com/ressources","Général",0
+"Comment signaler un problème de sécurité ?","Contactez la sécurité via le portail ou appelez le numéro d’urgence.","http://iset.example.com/ressources","Général",0
+"Y a-t-il un parking pour les étudiants ?","Oui, un parking est disponible avec un permis étudiant.","http://iset.example.com/ressources","Général",0
+"Comment obtenir un permis de parking ?","Demandez-le au bureau administratif.","http://iset.example.com/administration","Administration",0
+"Quels sont les numéros d’urgence à l’ISET ?","Les numéros sont affichés sur le site, section Sécurité.","http://iset.example.com/ressources","Général",0
+"Y a-t-il des salles informatiques ?","Oui, les salles informatiques sont accessibles avec un compte étudiant.","http://iset.example.com/services-it","Services IT",0
+"Comment réserver une salle informatique ?","Les réservations se font via le portail IT.","http://iset.example.com/services-it","Services IT",0
+"Y a-t-il des imprimantes sur le campus ?","Des imprimantes sont disponibles dans les salles informatiques.","http://iset.example.com/services-it","Services IT",0
+"Comment payer pour l’impression ?","Utilisez votre compte étudiant pour les impressions.","http://iset.example.com/services-it","Services IT",0
+"Quels sont les horaires des salles informatiques ?","Les salles sont ouvertes de 8h à 20h.","http://iset.example.com/services-it","Services IT",0
+"Y a-t-il des cours en ligne ?","Certains cours sont disponibles en ligne via le portail étudiant.","http://iset.example.com/programmes","Cours",0
+"Comment accéder aux cours en ligne ?","Connectez-vous au portail étudiant avec vos identifiants.","http://iset.example.com/programmes","Cours",0
+"Quels sont les prérequis pour les cours en ligne ?","Un compte étudiant et une connexion Internet sont nécessaires.","http://iset.example.com/programmes","Cours",0
+"Y a-t-il des tutoriels pour les logiciels ?","Des tutoriels sont disponibles sur le portail IT.","http://iset.example.com/services-it","Services IT",0
+"Comment soumettre un projet ?","Soumettez vos projets via le portail étudiant.","http://iset.example.com/programmes","Cours",0
+"Quels sont les délais pour soumettre un projet ?","Les délais sont indiqués dans le programme du cours.","http://iset.example.com/programmes","Cours",0
+"Comment obtenir une extension pour un projet ?","Contactez votre professeur pour demander une extension.","http://iset.example.com/programmes","Cours",0
+"Y a-t-il des sessions de rattrapage ?","Oui, les sessions de rattrapage sont organisées après les examens.","http://iset.example.com/examens","Examens",0
+"Comment s’inscrire à une session de rattrapage ?","Inscrivez-vous via le portail étudiant.","http://iset.example.com/examens","Examens",0
+"Quand sont publiés les résultats des rattrapages ?","Les résultats sont publiés une semaine après les examens.","http://iset.example.com/resultats","Examens",0
+"Comment contester une note ?","Soumettez une demande au bureau académique dans les 7 jours.","http://iset.example.com/examens","Examens",0
+"Y a-t-il des examens en ligne ?","Certains examens sont en ligne. Vérifiez le calendrier.","http://iset.example.com/examens","Examens",0
+"Quels sont les règles pour les examens ?","Les règles sont disponibles sur le portail académique.","http://iset.example.com/examens","Examens",0
+"Comment obtenir un diplôme ?","Le diplôme est délivré après validation de tous les crédits.","http://iset.example.com/administration","Administration",0
+"Quels sont les frais pour un duplicata de diplôme ?","Les frais sont de 50 DT. Contactez l’administration.","http://iset.example.com/administration","Administration",0
+"Comment transférer mes crédits à une autre université ?","Soumettez une demande au bureau académique.","http://iset.example.com/administration","Administration",0
+"Y a-t-il des programmes d’échange ?","Oui, des programmes d’échange sont disponibles. Consultez le site.","http://iset.example.com/programmes","Cours",0
+"Comment postuler pour un programme d’échange ?","Soumettez votre candidature via le portail académique.","http://iset.example.com/programmes","Cours",0
+"Quels sont les partenaires internationaux de l’ISET ?","Les partenaires sont listés sur le site, section International.","http://iset.example.com/international","Cours",0
+"Y a-t-il des cours de préparation aux certifications ?","Oui, des cours pour certifications comme Cisco sont proposés.","http://iset.example.com/programmes","Cours",0
+"Comment obtenir une certification professionnelle ?","Inscrivez-vous aux cours spécifiques via le portail.","http://iset.example.com/programmes","Cours",0
+"Quels sont les horaires des cours de langue ?","Les cours de langue ont lieu le soir. Vérifiez le portail.","http://iset.example.com/horaires","Horaires",0
+"Comment s’inscrire à un cours de langue ?","Inscrivez-vous via le portail étudiant.","http://iset.example.com/programmes","Cours",0
+"Y a-t-il des frais pour les cours de langue ?","Certains cours sont gratuits pour les étudiants inscrits.","http://iset.example.com/programmes","Cours",0
+"Comment obtenir un certificat de langue ?","Terminez le cours et passez l’examen final.","http://iset.example.com/programmes","Cours",0
+"Quels sont les équipements sportifs disponibles ?","Le campus dispose d’un gymnase et de terrains de sport.","http://iset.example.com/activites","Clubs",0
+"Comment rejoindre l’équipe de football ?","Inscrivez-vous via le club de sport.","http://iset.example.com/activites","Clubs",0
+"Y a-t-il des compétitions sportives ?","Oui, des tournois sont organisés chaque semestre.","http://iset.example.com/activites","Clubs",0
+"Comment obtenir un financement pour un club ?","Soumettez une demande au bureau des activités.","http://iset.example.com/activites","Clubs",0
+"Quels sont les horaires du gymnase ?","Le gymnase est ouvert de 10h à 20h.","http://iset.example.com/activites","Clubs",0
+"Y a-t-il des activités culturelles ?","Oui, des expositions et spectacles sont organisés.","http://iset.example.com/activites","Clubs",0
+"Comment participer à une exposition culturelle ?","Inscrivez-vous via le club culturel.","http://iset.example.com/activites","Clubs",0
+"Quels sont les thèmes des clubs culturels ?","Les thèmes incluent art, musique, et littérature.","http://iset.example.com/activites","Clubs",0
+"Y a-t-il des ateliers de programmation ?","Oui, des ateliers sont organisés par le club informatique.","http://iset.example.com/activites","Clubs",0
+"Comment s’inscrire à un hackathon ?","Inscrivez-vous via le portail des activités.","http://iset.example.com/activites","Clubs",0
+"Quels sont les projets du club robotique ?","Le club travaille sur des robots autonomes et des compétitions.","http://iset.example.com/activites","Clubs",0
+"Y a-t-il des bourses pour les compétitions ?","Des bourses sont disponibles pour les compétitions nationales.","http://iset.example.com/bourses","Bourses",0
+"Comment obtenir un financement pour un projet ?","Soumettez une proposition au bureau académique.","http://iset.example.com/ressources","Général",0
+"Quels sont les services de conseil académique ?","Des conseillers sont disponibles au bureau académique.","http://iset.example.com/ressources","Général",0
+"Comment planifier mon parcours académique ?","Rencontrez un conseiller via le portail étudiant.","http://iset.example.com/ressources","Général",0
+"Y a-t-il des sessions d’orientation ?","Oui, des sessions sont organisées en début de semestre.","http://iset.example.com/ressources","Général",0
+"Comment améliorer mes compétences en programmation ?","Inscrivez-vous aux ateliers du club informatique.","http://iset.example.com/activites","Clubs",0
+"Quels sont les outils de collaboration en ligne ?","L’ISET utilise des plateformes comme Moodle et Teams.","http://iset.example.com/services-it","Services IT",0
+"Comment accéder à Moodle ?","Connectez-vous avec vos identifiants étudiants.","http://iset.example.com/services-it","Services IT",0
+"Quels sont les cours sur Moodle ?","Tous les cours principaux sont sur Moodle.","http://iset.example.com/programmes","Cours",0
+"Y a-t-il des formations sur les outils IT ?","Oui, des formations sont proposées par le service IT.","http://iset.example.com/services-it","Services IT",0
+"Comment signaler un bug sur le portail étudiant ?","Contactez le support IT via le portail.","http://iset.example.com/services-it","Services IT",0
+"Quels sont les horaires du centre médical ?","Le centre médical est ouvert de 9h à 16h.","http://iset.example.com/ressources","Général",0
+"Comment prendre rendez-vous au centre médical ?","Appelez le centre ou passez directement.","http://iset.example.com/ressources","Général",0
+"Y a-t-il des services de conseil psychologique ?","Oui, des conseillers sont disponibles sur rendez-vous.","http://iset.example.com/ressources","Général",0
+"Comment obtenir une aide financière d’urgence ?","Contactez le bureau des bourses pour une aide d’urgence.","http://iset.example.com/bourses","Bourses",0
+"Quels sont les droits des étudiants ?","Les droits sont détaillés dans le règlement intérieur.","http://iset.example.com/ressources","Général",0
+"Comment signaler une discrimination ?","Contactez le bureau des affaires étudiantes.","http://iset.example.com/ressources","Général",0
+"Y a-t-il des programmes de mentorat ?","Oui, des programmes de mentorat sont disponibles.","http://iset.example.com/ressources","Général",0
+"Comment devenir mentor ?","Inscrivez-vous via le bureau académique.","http://iset.example.com/ressources","Général",0
+"Quels sont les avantages d’être mentor ?","Les mentors reçoivent des crédits et des certificats.","http://iset.example.com/ressources","Général",0
+"Y a-t-il des ateliers de rédaction de CV ?","Oui, des ateliers sont organisés par le portail carrière.","http://iset.example.com/carriere","Stages",0
+"Comment préparer un entretien d’embauche ?","Consultez les ressources sur le portail carrière.","http://iset.example.com/carriere","Stages",0
+"Quels sont les débouchés pour Informatique ?","Les débouchés incluent développeur, administrateur réseau, et data scientist.","http://iset.example.com/carriere","Branches",0
+"Quels sont les débouchés pour Génie Civil ?","Les débouchés incluent ingénieur structure et chef de projet.","http://iset.example.com/carriere","Branches",0
+"Y a-t-il des foires de l’emploi ?","Oui, une foire est organisée chaque année.","http://iset.example.com/evenements","Événements",0
+"Comment contacter les anciens étudiants ?","Rejoignez le réseau des anciens sur le portail carrière.","http://iset.example.com/carriere","Général",0
+"Quels sont les projets de recherche à l’ISET ?","Les projets sont listés sur le site, section Recherche.","http://iset.example.com/recherche","Général",0
+"Comment participer à un projet de recherche ?","Contactez le département de recherche via le site.","http://iset.example.com/recherche","Général",0
+"Y a-t-il des publications de l’ISET ?","Oui, les publications sont disponibles sur le site.","http://iset.example.com/recherche","Général",0
+"Comment obtenir un financement pour la recherche ?","Soumettez une demande au département de recherche.","http://iset.example.com/recherche","Général",0

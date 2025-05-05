@@ -1,0 +1,1157 @@
+[
+    {
+        "Question": "Quels sont les horaires des cours d’informatique ?",
+        "Réponse": "Les horaires sont disponibles sur le portail étudiant. Consultez la section Horaires.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand commence le semestre ?",
+        "Réponse": "Le semestre commence le 1er septembre. Vérifiez le calendrier universitaire.",
+        "Lien": "http://iset.example.com/calendrier",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "À quelle heure est le cours d’Algorithmique ?",
+        "Réponse": "Le cours d’Algorithmique est prévu le lundi de 8h à 10h. Consultez le portail.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des cours le samedi ?",
+        "Réponse": "Certains cours pratiques ont lieu le samedi. Vérifiez votre emploi du temps.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Quel est l’horaire du cours de Python le lundi ?",
+        "Réponse": "Le cours de Python est de 10h à 12h en salle A-101. Consultez le portail.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Où trouver l’emploi du temps de Génie Civil ?",
+        "Réponse": "L’emploi du temps est sur le portail étudiant, section Génie Civil.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand a lieu le cours de Réseaux ?",
+        "Réponse": "Le cours de Réseaux est le mercredi de 14h à 16h. Vérifiez le portail.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Les cours sont-ils en ligne ou en présentiel ?",
+        "Réponse": "La plupart des cours sont en présentiel, certains en ligne. Consultez le portail.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Qui enseigne le cours de Programmation Python ?",
+        "Réponse": "Le cours est enseigné par le Pr. Dupont. Consultez le programme.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Professeurs",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment contacter un professeur ?",
+        "Réponse": "Les coordonnées des professeurs sont sur le portail enseignant.",
+        "Lien": "http://iset.example.com/enseignants",
+        "Catégorie": "Professeurs",
+        "Rating": 0
+    },
+    {
+        "Question": "Qui est le responsable du département Génie Civil ?",
+        "Réponse": "Le Pr. Martin est responsable. Contactez-le via le portail.",
+        "Lien": "http://iset.example.com/departements",
+        "Catégorie": "Professeurs",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les horaires de bureau des professeurs ?",
+        "Réponse": "Les horaires de bureau sont sur le portail enseignant.",
+        "Lien": "http://iset.example.com/enseignants",
+        "Catégorie": "Professeurs",
+        "Rating": 0
+    },
+    {
+        "Question": "Qui enseigne Bases de données ?",
+        "Réponse": "Le cours est enseigné par Mme. Leclerc. Consultez le programme.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Professeurs",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment prendre rendez-vous avec un professeur ?",
+        "Réponse": "Envoyez un email via le portail enseignant pour un rendez-vous.",
+        "Lien": "http://iset.example.com/enseignants",
+        "Catégorie": "Professeurs",
+        "Rating": 0
+    },
+    {
+        "Question": "Qui est le coordinateur des cours d’informatique ?",
+        "Réponse": "Le coordinateur est le Pr. Dubois. Contactez-le via le portail.",
+        "Lien": "http://iset.example.com/departements",
+        "Catégorie": "Professeurs",
+        "Rating": 0
+    },
+    {
+        "Question": "Où se déroule le cours de Bases de données ?",
+        "Réponse": "Le cours a lieu en salle B-204. Vérifiez l’affichage des salles.",
+        "Lien": "http://iset.example.com/salles",
+        "Catégorie": "Salles",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des salles libres pour étudier ?",
+        "Réponse": "Les salles libres sont indiquées sur le planning des salles.",
+        "Lien": "http://iset.example.com/salles",
+        "Catégorie": "Salles",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment réserver une salle pour un projet ?",
+        "Réponse": "Les réservations se font via le bureau administratif.",
+        "Lien": "http://iset.example.com/salles",
+        "Catégorie": "Salles",
+        "Rating": 0
+    },
+    {
+        "Question": "Où trouver le plan des salles de l’ISET ?",
+        "Réponse": "Le plan des salles est sur le site, section Infrastructures.",
+        "Lien": "http://iset.example.com/infrastructures",
+        "Catégorie": "Salles",
+        "Rating": 0
+    },
+    {
+        "Question": "Quelle salle pour le cours de Mécanique ?",
+        "Réponse": "Le cours de Mécanique est en salle C-302. Vérifiez le planning.",
+        "Lien": "http://iset.example.com/salles",
+        "Catégorie": "Salles",
+        "Rating": 0
+    },
+    {
+        "Question": "Les salles ont-elles des projecteurs ?",
+        "Réponse": "La plupart des salles sont équipées de projecteurs. Vérifiez avec l’administration.",
+        "Lien": "http://iset.example.com/salles",
+        "Catégorie": "Salles",
+        "Rating": 0
+    },
+    {
+        "Question": "Quelles sont les branches disponibles à l’ISET ?",
+        "Réponse": "Les branches incluent Informatique, Génie Civil, et Gestion. Voir le site.",
+        "Lien": "http://iset.example.com/branches",
+        "Catégorie": "Branches",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels cours sont proposés en Génie Civil ?",
+        "Réponse": "Les cours incluent Mécanique des structures et Hydraulique. Consultez le programme.",
+        "Lien": "http://iset.example.com/programmes/genie-civil",
+        "Catégorie": "Branches",
+        "Rating": 0
+    },
+    {
+        "Question": "Quelles sont les options en Informatique ?",
+        "Réponse": "Les options incluent Réseaux, Développement logiciel, et Data Science.",
+        "Lien": "http://iset.example.com/programmes/informatique",
+        "Catégorie": "Branches",
+        "Rating": 0
+    },
+    {
+        "Question": "Est-il possible de changer de branche ?",
+        "Réponse": "Oui, soumettez une demande au bureau académique avant la date limite.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Branches",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les prérequis pour la branche Gestion ?",
+        "Réponse": "Les prérequis sont indiqués dans le programme de Gestion.",
+        "Lien": "http://iset.example.com/programmes/gestion",
+        "Catégorie": "Branches",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand aura lieu l’examen de Mathématiques ?",
+        "Réponse": "Les dates des examens sont publiées sur le calendrier universitaire.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment s’inscrire aux examens ?",
+        "Réponse": "L’inscription se fait via le portail étudiant avant la date limite.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Où trouver les résultats des examens ?",
+        "Réponse": "Les résultats sont publiés sur le portail étudiant.",
+        "Lien": "http://iset.example.com/resultats",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Que faire si je rate un examen ?",
+        "Réponse": "Contactez le bureau académique pour les sessions de rattrapage.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand est l’examen de Python ?",
+        "Réponse": "L’examen de Python est prévu en décembre. Consultez le calendrier.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment demander une révision d’examen ?",
+        "Réponse": "Soumettez une demande au bureau académique dans les 7 jours.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment demander un certificat de scolarité ?",
+        "Réponse": "Rendez-vous au bureau administratif avec votre carte d’étudiant.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Où payer les frais d’inscription ?",
+        "Réponse": "Les frais sont payables en ligne via le portail administratif.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir une carte d’étudiant ?",
+        "Réponse": "La carte est délivrée au bureau administratif après l’inscription.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels documents fournir pour l’inscription ?",
+        "Réponse": "Vous devez fournir une pièce d’identité, un certificat de bac, et une photo.",
+        "Lien": "http://iset.example.com/inscription",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment changer mes informations personnelles ?",
+        "Réponse": "Mettez à jour vos informations via le portail étudiant.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment postuler pour une bourse ?",
+        "Réponse": "Soumettez votre dossier via le portail des bourses avant la date limite.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les critères pour une bourse ?",
+        "Réponse": "Les critères incluent le revenu familial et les résultats académiques.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand est la date limite pour demander une bourse ?",
+        "Réponse": "La date limite est le 15 octobre. Vérifiez sur le portail.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment savoir si ma demande de bourse est acceptée ?",
+        "Réponse": "Les résultats sont publiés sur le portail des bourses.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels types de bourses sont disponibles ?",
+        "Réponse": "Il y a des bourses de mérite et des aides financières. Consultez le portail.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Où trouver le règlement intérieur de l’ISET ?",
+        "Réponse": "Le règlement est disponible sur le site, section Ressources.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment accéder à la bibliothèque ?",
+        "Réponse": "La bibliothèque est ouverte aux étudiants avec une carte d’étudiant.",
+        "Lien": "http://iset.example.com/bibliotheque",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il un accès Wi-Fi à l’ISET ?",
+        "Réponse": "Oui, connectez-vous avec vos identifiants étudiants. Voir la section IT.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les clubs étudiants à l’ISET ?",
+        "Réponse": "Les clubs incluent Robotique, Culture, et Sports. Consultez la page des activités.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand a lieu la journée portes ouvertes ?",
+        "Réponse": "La journée portes ouvertes est prévue en mars. Vérifiez le calendrier.",
+        "Lien": "http://iset.example.com/evenements",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment signaler un problème technique ?",
+        "Réponse": "Contactez le service informatique via le portail IT.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Où trouver les offres de stage ?",
+        "Réponse": "Les offres de stage sont publiées sur le portail carrière.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment participer aux compétitions académiques ?",
+        "Réponse": "Inscrivez-vous via le bureau des activités étudiantes.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les horaires de la bibliothèque ?",
+        "Réponse": "La bibliothèque est ouverte de 8h à 18h du lundi au vendredi.",
+        "Lien": "http://iset.example.com/bibliotheque",
+        "Catégorie": "Bibliothèque",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment emprunter un livre ?",
+        "Réponse": "Présentez votre carte d’étudiant à la bibliothèque.",
+        "Lien": "http://iset.example.com/bibliotheque",
+        "Catégorie": "Bibliothèque",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des ressources en ligne à la bibliothèque ?",
+        "Réponse": "Oui, accédez aux bases de données via le portail de la bibliothèque.",
+        "Lien": "http://iset.example.com/bibliotheque",
+        "Catégorie": "Bibliothèque",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment réserver un livre ?",
+        "Réponse": "Les réservations se font via le portail de la bibliothèque.",
+        "Lien": "http://iset.example.com/bibliotheque",
+        "Catégorie": "Bibliothèque",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les services informatiques de l’ISET ?",
+        "Réponse": "Les services incluent Wi-Fi, comptes étudiants, et support technique.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir un compte étudiant ?",
+        "Réponse": "Le compte est créé automatiquement après l’inscription.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Que faire si j’oublie mon mot de passe ?",
+        "Réponse": "Réinitialisez votre mot de passe via le portail IT.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment accéder aux logiciels académiques ?",
+        "Réponse": "Les logiciels sont disponibles sur les ordinateurs du campus.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les événements à venir à l’ISET ?",
+        "Réponse": "Les événements sont listés sur le calendrier des événements.",
+        "Lien": "http://iset.example.com/evenements",
+        "Catégorie": "Événements",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand a lieu la cérémonie de remise des diplômes ?",
+        "Réponse": "La cérémonie est prévue en juin. Vérifiez le calendrier.",
+        "Lien": "http://iset.example.com/evenements",
+        "Catégorie": "Événements",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment s’inscrire à un atelier ?",
+        "Réponse": "Inscrivez-vous via le portail des activités.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Événements",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des conférences à l’ISET ?",
+        "Réponse": "Oui, les conférences sont annoncées sur le site.",
+        "Lien": "http://iset.example.com/evenements",
+        "Catégorie": "Événements",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment rejoindre le club de robotique ?",
+        "Réponse": "Inscrivez-vous via le bureau des activités étudiantes.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Quelles sont les activités du club culturel ?",
+        "Réponse": "Le club organise des expositions et des spectacles. Voir le site.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il un club de sport ?",
+        "Réponse": "Oui, le club de sport propose football, basketball, et plus.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment organiser une activité étudiante ?",
+        "Réponse": "Soumettez une proposition au bureau des activités.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Quelles sont les conditions pour un stage ?",
+        "Réponse": "Les stages doivent être validés par le département académique.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Stages",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment rédiger un rapport de stage ?",
+        "Réponse": "Les consignes sont sur le portail carrière.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Stages",
+        "Rating": 0
+    },
+    {
+        "Question": "Où trouver des entreprises pour un stage ?",
+        "Réponse": "Consultez le portail carrière pour les partenariats.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Stages",
+        "Rating": 0
+    },
+    {
+        "Question": "Les stages sont-ils rémunérés ?",
+        "Réponse": "Cela dépend de l’entreprise. Vérifiez avec le portail carrière.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Stages",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment valider mon stage ?",
+        "Réponse": "Soumettez votre rapport et obtenez l’approbation du département.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Stages",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des cours de langue à l’ISET ?",
+        "Réponse": "Oui, des cours d’anglais et d’autres langues sont proposés.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les cours optionnels ?",
+        "Réponse": "Les cours optionnels sont listés dans le programme de votre branche.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment s’inscrire à un cours optionnel ?",
+        "Réponse": "Inscrivez-vous via le portail étudiant.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les crédits pour le cours de Python ?",
+        "Réponse": "Le cours de Python vaut 6 crédits. Consultez le programme.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des cours du soir ?",
+        "Réponse": "Certains cours sont proposés en soirée. Vérifiez le portail.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir un relevé de notes ?",
+        "Réponse": "Le relevé est disponible sur le portail étudiant.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand est la date limite d’inscription ?",
+        "Réponse": "La date limite est le 30 août. Consultez le site.",
+        "Lien": "http://iset.example.com/inscription",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment demander un congé académique ?",
+        "Réponse": "Soumettez une demande au bureau académique.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des frais pour les certificats ?",
+        "Réponse": "Les certificats sont gratuits pour les étudiants inscrits.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment vérifier mon statut d’inscription ?",
+        "Réponse": "Vérifiez votre statut sur le portail étudiant.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les horaires du bureau administratif ?",
+        "Réponse": "Le bureau est ouvert de 9h à 16h du lundi au vendredi.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment demander une attestation de présence ?",
+        "Réponse": "Rendez-vous au bureau administratif avec votre carte d’étudiant.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des bourses pour les étudiants internationaux ?",
+        "Réponse": "Oui, des bourses spécifiques sont disponibles. Consultez le portail.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment renouveler ma bourse ?",
+        "Réponse": "Soumettez une nouvelle demande chaque année via le portail.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels documents pour une demande de bourse ?",
+        "Réponse": "Fournissez un certificat de revenu et vos relevés de notes.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des aides pour le logement ?",
+        "Réponse": "Des aides sont disponibles via le bureau des bourses.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment trouver un logement près de l’ISET ?",
+        "Réponse": "Consultez la section Logement sur le site.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il une cafétéria à l’ISET ?",
+        "Réponse": "Oui, la cafétéria est ouverte de 7h à 17h.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les services de santé à l’ISET ?",
+        "Réponse": "Un centre médical est disponible sur le campus.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment signaler un problème de sécurité ?",
+        "Réponse": "Contactez la sécurité via le portail ou appelez le numéro d’urgence.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il un parking pour les étudiants ?",
+        "Réponse": "Oui, un parking est disponible avec un permis étudiant.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir un permis de parking ?",
+        "Réponse": "Demandez-le au bureau administratif.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les numéros d’urgence à l’ISET ?",
+        "Réponse": "Les numéros sont affichés sur le site, section Sécurité.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des salles informatiques ?",
+        "Réponse": "Oui, les salles informatiques sont accessibles avec un compte étudiant.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment réserver une salle informatique ?",
+        "Réponse": "Les réservations se font via le portail IT.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des imprimantes sur le campus ?",
+        "Réponse": "Des imprimantes sont disponibles dans les salles informatiques.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment payer pour l’impression ?",
+        "Réponse": "Utilisez votre compte étudiant pour les impressions.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les horaires des salles informatiques ?",
+        "Réponse": "Les salles sont ouvertes de 8h à 20h.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des cours en ligne ?",
+        "Réponse": "Certains cours sont disponibles en ligne via le portail étudiant.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment accéder aux cours en ligne ?",
+        "Réponse": "Connectez-vous au portail étudiant avec vos identifiants.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les prérequis pour les cours en ligne ?",
+        "Réponse": "Un compte étudiant et une connexion Internet sont nécessaires.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des tutoriels pour les logiciels ?",
+        "Réponse": "Des tutoriels sont disponibles sur le portail IT.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment soumettre un projet ?",
+        "Réponse": "Soumettez vos projets via le portail étudiant.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les délais pour soumettre un projet ?",
+        "Réponse": "Les délais sont indiqués dans le programme du cours.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir une extension pour un projet ?",
+        "Réponse": "Contactez votre professeur pour demander une extension.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des sessions de rattrapage ?",
+        "Réponse": "Oui, les sessions de rattrapage sont organisées après les examens.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment s’inscrire à une session de rattrapage ?",
+        "Réponse": "Inscrivez-vous via le portail étudiant.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Quand sont publiés les résultats des rattrapages ?",
+        "Réponse": "Les résultats sont publiés une semaine après les examens.",
+        "Lien": "http://iset.example.com/resultats",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment contester une note ?",
+        "Réponse": "Soumettez une demande au bureau académique dans les 7 jours.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des examens en ligne ?",
+        "Réponse": "Certains examens sont en ligne. Vérifiez le calendrier.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les règles pour les examens ?",
+        "Réponse": "Les règles sont disponibles sur le portail académique.",
+        "Lien": "http://iset.example.com/examens",
+        "Catégorie": "Examens",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir un diplôme ?",
+        "Réponse": "Le diplôme est délivré après validation de tous les crédits.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les frais pour un duplicata de diplôme ?",
+        "Réponse": "Les frais sont de 50 DT. Contactez l’administration.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment transférer mes crédits à une autre université ?",
+        "Réponse": "Soumettez une demande au bureau académique.",
+        "Lien": "http://iset.example.com/administration",
+        "Catégorie": "Administration",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des programmes d’échange ?",
+        "Réponse": "Oui, des programmes d’échange sont disponibles. Consultez le site.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment postuler pour un programme d’échange ?",
+        "Réponse": "Soumettez votre candidature via le portail académique.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les partenaires internationaux de l’ISET ?",
+        "Réponse": "Les partenaires sont listés sur le site, section International.",
+        "Lien": "http://iset.example.com/international",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des cours de préparation aux certifications ?",
+        "Réponse": "Oui, des cours pour certifications comme Cisco sont proposés.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir une certification professionnelle ?",
+        "Réponse": "Inscrivez-vous aux cours spécifiques via le portail.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les horaires des cours de langue ?",
+        "Réponse": "Les cours de langue ont lieu le soir. Vérifiez le portail.",
+        "Lien": "http://iset.example.com/horaires",
+        "Catégorie": "Horaires",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment s’inscrire à un cours de langue ?",
+        "Réponse": "Inscrivez-vous via le portail étudiant.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des frais pour les cours de langue ?",
+        "Réponse": "Certains cours sont gratuits pour les étudiants inscrits.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir un certificat de langue ?",
+        "Réponse": "Terminez le cours et passez l’examen final.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les équipements sportifs disponibles ?",
+        "Réponse": "Le campus dispose d’un gymnase et de terrains de sport.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment rejoindre l’équipe de football ?",
+        "Réponse": "Inscrivez-vous via le club de sport.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des compétitions sportives ?",
+        "Réponse": "Oui, des tournois sont organisés chaque semestre.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir un financement pour un club ?",
+        "Réponse": "Soumettez une demande au bureau des activités.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les horaires du gymnase ?",
+        "Réponse": "Le gymnase est ouvert de 10h à 20h.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des activités culturelles ?",
+        "Réponse": "Oui, des expositions et spectacles sont organisés.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment participer à une exposition culturelle ?",
+        "Réponse": "Inscrivez-vous via le club culturel.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les thèmes des clubs culturels ?",
+        "Réponse": "Les thèmes incluent art, musique, et littérature.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des ateliers de programmation ?",
+        "Réponse": "Oui, des ateliers sont organisés par le club informatique.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment s’inscrire à un hackathon ?",
+        "Réponse": "Inscrivez-vous via le portail des activités.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les projets du club robotique ?",
+        "Réponse": "Le club travaille sur des robots autonomes et des compétitions.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des bourses pour les compétitions ?",
+        "Réponse": "Des bourses sont disponibles pour les compétitions nationales.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir un financement pour un projet ?",
+        "Réponse": "Soumettez une proposition au bureau académique.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les services de conseil académique ?",
+        "Réponse": "Des conseillers sont disponibles au bureau académique.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment planifier mon parcours académique ?",
+        "Réponse": "Rencontrez un conseiller via le portail étudiant.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des sessions d’orientation ?",
+        "Réponse": "Oui, des sessions sont organisées en début de semestre.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment améliorer mes compétences en programmation ?",
+        "Réponse": "Inscrivez-vous aux ateliers du club informatique.",
+        "Lien": "http://iset.example.com/activites",
+        "Catégorie": "Clubs",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les outils de collaboration en ligne ?",
+        "Réponse": "L’ISET utilise des plateformes comme Moodle et Teams.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment accéder à Moodle ?",
+        "Réponse": "Connectez-vous avec vos identifiants étudiants.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les cours sur Moodle ?",
+        "Réponse": "Tous les cours principaux sont sur Moodle.",
+        "Lien": "http://iset.example.com/programmes",
+        "Catégorie": "Cours",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des formations sur les outils IT ?",
+        "Réponse": "Oui, des formations sont proposées par le service IT.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment signaler un bug sur le portail étudiant ?",
+        "Réponse": "Contactez le support IT via le portail.",
+        "Lien": "http://iset.example.com/services-it",
+        "Catégorie": "Services IT",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les horaires du centre médical ?",
+        "Réponse": "Le centre médical est ouvert de 9h à 16h.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment prendre rendez-vous au centre médical ?",
+        "Réponse": "Appelez le centre ou passez directement.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des services de conseil psychologique ?",
+        "Réponse": "Oui, des conseillers sont disponibles sur rendez-vous.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir une aide financière d’urgence ?",
+        "Réponse": "Contactez le bureau des bourses pour une aide d’urgence.",
+        "Lien": "http://iset.example.com/bourses",
+        "Catégorie": "Bourses",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les droits des étudiants ?",
+        "Réponse": "Les droits sont détaillés dans le règlement intérieur.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment signaler une discrimination ?",
+        "Réponse": "Contactez le bureau des affaires étudiantes.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des programmes de mentorat ?",
+        "Réponse": "Oui, des programmes de mentorat sont disponibles.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment devenir mentor ?",
+        "Réponse": "Inscrivez-vous via le bureau académique.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les avantages d’être mentor ?",
+        "Réponse": "Les mentors reçoivent des crédits et des certificats.",
+        "Lien": "http://iset.example.com/ressources",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des ateliers de rédaction de CV ?",
+        "Réponse": "Oui, des ateliers sont organisés par le portail carrière.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Stages",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment préparer un entretien d’embauche ?",
+        "Réponse": "Consultez les ressources sur le portail carrière.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Stages",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les débouchés pour Informatique ?",
+        "Réponse": "Les débouchés incluent développeur, administrateur réseau, et data scientist.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Branches",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les débouchés pour Génie Civil ?",
+        "Réponse": "Les débouchés incluent ingénieur structure et chef de projet.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Branches",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des foires de l’emploi ?",
+        "Réponse": "Oui, une foire est organisée chaque année.",
+        "Lien": "http://iset.example.com/evenements",
+        "Catégorie": "Événements",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment contacter les anciens étudiants ?",
+        "Réponse": "Rejoignez le réseau des anciens sur le portail carrière.",
+        "Lien": "http://iset.example.com/carriere",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Quels sont les projets de recherche à l’ISET ?",
+        "Réponse": "Les projets sont listés sur le site, section Recherche.",
+        "Lien": "http://iset.example.com/recherche",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment participer à un projet de recherche ?",
+        "Réponse": "Contactez le département de recherche via le site.",
+        "Lien": "http://iset.example.com/recherche",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Y a-t-il des publications de l’ISET ?",
+        "Réponse": "Oui, les publications sont disponibles sur le site.",
+        "Lien": "http://iset.example.com/recherche",
+        "Catégorie": "Général",
+        "Rating": 0
+    },
+    {
+        "Question": "Comment obtenir un financement pour la recherche ?",
+        "Réponse": "Soumettez une demande au département de recherche.",
+        "Lien": "http://iset.example.com/recherche",
+        "Catégorie": "Général",
+        "Rating": 0
+    }
+]

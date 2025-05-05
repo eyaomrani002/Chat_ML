@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISET Assistant - Interface Moderne</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body class="bg-gradient-to-br from-indigo-50 to-blue-50 flex items-center justify-center min-h-screen p-4">
+    <div class="glass-effect w-full max-w-2xl rounded-2xl shadow-xl overflow-hidden">
+        <!-- En-tête -->
+        <div class="bg-indigo-600 p-6 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <i class="fas fa-robot text-2xl text-white"></i>
+                <h1 id="title" class="text-2xl font-bold text-white">ISET Assistant</h1>
+            </div>
+            <div class="flex items-center space-x-3">
+                <button id="historyButton" class="animated-button bg-white/10 hover:bg-white/20 p-2 rounded-lg text-white" aria-label="Afficher l'historique">
+                    <i class="fas fa-history"></i>
+                </button>
+                <button id="clearHistoryButton" class="animated-button bg-white/10 hover:bg-white/20 p-2 rounded-lg text-white" aria-label="Effacer l'historique">
+                    <i class="fas fa-trash"></i>
+                </button>
+                <div class="relative">
+                    <select id="ui_lang" class="bg-white/10 border-0 text-white rounded-lg px-4 py-2 appearance-none focus:ring-0" aria-label="Sélectionner la langue de l'interface">
+                        <option value="fr" class="bg-indigo-600">FR</option>
+                        <option value="en" class="bg-indigo-600">EN</option>
+                        <option value="ar" class="bg-indigo-600">AR</option>
+                    </select>
+                    <i class="fas fa-chevron-down text-white/80 absolute right-3 top-3 pointer-events-none"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zone de conversation -->
+        <div class="flex flex-col" style="min-height: 60vh;">
+            <div id="historyBox" class="hidden flex-1 overflow-y-auto p-4 bg-white chat-container"></div>
+            <div id="chatbox" class="flex-1 overflow-y-auto p-4 bg-white chat-container">
+                <div class="text-gray-500 text-center" id="chatPlaceholder">Commencez à poser vos questions...</div>
+                <!-- Formulaire pour soumettre une réponse correcte -->
+                <form id="responseForm" class="hidden p-4 bg-gray-50 border-t space-y-4">
+                    <p id="responsePrompt" class="text-gray-600 font-medium">
+                        <i class="fas fa-exclamation-circle text-indigo-600 mr-2"></i>
+                        <span></span>
+                    </p>
+                    <textarea id="newResponse" class="w-full p-2 border rounded-lg" placeholder="Entrez la réponse correcte..."></textarea>
+                    <input id="newLink" type="text" class="w-full p-2 border rounded-lg" placeholder="Lien (optionnel)...">
+                    <select id="newCategory" class="w-full p-2 border rounded-lg">
+                        <option value="Général">Général</option>
+                        <option value="Technique">Technique</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+                    <div class="flex space-x-4">
+                        <button id="submitResponse" type="button" class="animated-button bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700" aria-label="Soumettre la réponse correcte">Soumettre</button>
+                        <button id="cancelResponse" type="button" class="animated-button bg-gray-300 text-gray-700 px-4 py-2 rounded-lg hover:bg-gray-400" aria-label="Annuler">Annuler</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Formulaire d'interaction -->
+            <div class="border-t p-4 bg-gray-50">
+                <form id="chatForm" enctype="multipart/form-data" class="space-y-4">
+                    <div class="relative">
+                        <input id="userInput" name="message" type="text" 
+                               class="w-full p-4 pr-16 rounded-xl border-2 border-indigo-100 focus:border-indigo-300 focus:ring-0"
+                               placeholder="Écrivez votre message...">
+                        <div class="absolute right-2 top-2 flex space-x-2">
+                            <button type="submit" id="sendButton" 
+                                    class="animated-button bg-indigo-600 text-white p-3 rounded-xl hover:bg-indigo-700" aria-label="Envoyer le message">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                            <button type="button" id="recordButton" 
+                                    class="animated-button bg-green-500 text-white p-3 rounded-xl hover:bg-green-600" aria-label="Enregistrer un message vocal">
+                                <i class="fas fa-microphone"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Options avancées -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="relative">
+                            <input type="file" id="pdf_file" name="pdf_file" accept=".pdf" 
+                                   class="opacity-0 absolute w-full h-full cursor-pointer">
+                            <label for="pdf_file" 
+                                   class="block bg-white p-3 rounded-lg border-2 border-dashed border-indigo-100 text-center cursor-pointer hover:border-indigo-300">
+                                <i class="fas fa-file-pdf text-red-500 mr-2"></i>
+                                <span id="pdfLabel">PDF</span>
+                            </label>
+                        </div>
+                        <div class="relative">
+                            <input type="file" id="image_file" name="image_file" accept=".png,.jpg,.jpeg" 
+                                   class="opacity-0 absolute w-full h-full cursor-pointer">
+                            <label for="image_file" 
+                                   class="block bg-white p-3 rounded-lg border-2 border-dashed border-indigo-100 text-center cursor-pointer hover:border-indigo-300">
+                                <i class="fas fa-image text-blue-500 mr-2"></i>
+                                <span id="imageLabel">Image</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Pied de page -->
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center space-x-4">
+                            <select id="output_lang" name="output_lang" 
+                                    class="bg-white rounded-lg px-4 py-2 border-2 border-indigo-100 focus:border-indigo-300" aria-label="Sélectionner la langue de la réponse">
+                                <option value="fr">Français</option>
+                                <option value="en">English</option>
+                                <option value="ar">العربية</option>
+                            </select>
+                            
+                            <label class="flex items-center space-x-2">
+                                <input type="checkbox" id="use_voice" 
+                                       class="form-checkbox h-5 w-5 text-indigo-600 rounded-lg border-2" aria-label="Activer la réponse vocale">
+                                <span id="voiceLabel" class="text-gray-600">Voix</span>
+                            </label>
+                        </div>
+                        
+                        <button type="button" id="exportButton" 
+                                class="animated-button bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600" aria-label="Exporter la conversation en PDF">
+                            <i class="fas fa-file-export mr-2"></i>
+                            <span id="exportLabel">Exporter</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script>
+        const translations = {
+            fr: {
+                title: "Chatbot ISET",
+                historyLabel: "Historique",
+                clearHistoryLabel: "Effacer",
+                pdfLabel: "Téléverser un PDF :",
+                imageLabel: "Téléverser une image :",
+                outputLangLabel: "Langue de la réponse :",
+                voiceLabel: "Utiliser la voix",
+                exportLabel: "Exporter en PDF",
+                responsePrompt: "Désolé, aucune réponse n'a été trouvée. Aidez-nous en fournissant une réponse correcte :",
+                placeholder: "Posez votre question...",
+                newResponse: "Entrez la réponse correcte...",
+                newLink: "Lien (optionnel)...",
+                submit: "Soumettre",
+                cancel: "Annuler",
+                successMessage: "Merci ! Votre réponse a été ajoutée avec succès."
+            },
+            en: {
+                title: "ISET Chatbot",
+                historyLabel: "History",
+                clearHistoryLabel: "Clear",
+                pdfLabel: "Upload a PDF:",
+                imageLabel: "Upload an image:",
+                outputLangLabel: "Response language:",
+                voiceLabel: "Use voice",
+                exportLabel: "Export to PDF",
+                responsePrompt: "Sorry, no response was found. Help us by providing a correct answer:",
+                placeholder: "Ask your question...",
+                newResponse: "Enter the correct answer...",
+                newLink: "Link (optional)...",
+                submit: "Submit",
+                cancel: "Cancel",
+                successMessage: "Thank you! Your response has been added successfully."
+            },
+            ar: {
+                title: "روبوت الدردشة ISET",
+                historyLabel: "السجل",
+                clearHistoryLabel: "مسح",
+                pdfLabel: "تحميل ملف PDF:",
+                imageLabel: "تحميل صورة:",
+                outputLangLabel: "لغة الرد:",
+                voiceLabel: "استخدام الصوت",
+                exportLabel: "تصدير إلى PDF",
+                responsePrompt: "عذراً، لم يتم العثور على إجابة. ساعدنا بتقديم إجابة صحيحة:",
+                placeholder: "اطرح سؤالك...",
+                newResponse: "أدخل الإجابة الصحيحة...",
+                newLink: "رابط (اختياري)...",
+                submit: "إرسال",
+                cancel: "إلغاء",
+                successMessage: "شكرًا! تمت إضافة إجابتك بنجاح."
+            }
+        };
+
+        const chatbox = document.getElementById('chatbox');
+        const historyBox = document.getElementById('historyBox');
+        const chatForm = document.getElementById('chatForm');
+        const userInput = document.getElementById('userInput');
+        const sendButton = document.getElementById('sendButton');
+        const recordButton = document.getElementById('recordButton');
+        const historyButton = document.getElementById('historyButton');
+        const clearHistoryButton = document.getElementById('clearHistoryButton');
+        const exportButton = document.getElementById('exportButton');
+        const responseForm = document.getElementById('responseForm');
+        const newResponse = document.getElementById('newResponse');
+        const newLink = document.getElementById('newLink');
+        const newCategory = document.getElementById('newCategory');
+        const submitResponse = document.getElementById('submitResponse');
+        const cancelResponse = document.getElementById('cancelResponse');
+        const uiLang = document.getElementById('ui_lang');
+        const chatPlaceholder = document.getElementById('chatPlaceholder');
+
+        let conversations = JSON.parse(localStorage.getItem('conversations')) || [];
+
+        function escapeHTML(str) {
+            return str.replace(/[&<>"']/g, match => ({
+                '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+            }[match]));
+        }
+
+        function addMessage(content, isUser, data = {}) {
+            console.log('Adding message:', { content, isUser, data }); // Débogage
+            chatPlaceholder.classList.add('hidden'); // Masquer le placeholder
+            const div = document.createElement('div');
+            div.className = isUser ? 'chat-bubble-user' : 'chat-bubble-bot';
+            div.setAttribute('role', 'region');
+            div.setAttribute('aria-live', 'polite');
+            if (isUser) {
+                div.textContent = escapeHTML(content);
+            } else {
+                const contentDiv = document.createElement('div');
+                contentDiv.innerHTML = `<strong>Chatbot :</strong> ${escapeHTML(data.answer)}`;
+                if (data.link) {
+                    const link = document.createElement('a');
+                    link.href = escapeHTML(data.link);
+                    link.className = 'text-blue-500 underline';
+                    link.target = '_blank';
+                    link.textContent = 'Lien';
+                    contentDiv.appendChild(document.createElement('br'));
+                    contentDiv.appendChild(link);
+                }
+                if (data.audio) {
+                    const audio = document.createElement('audio');
+                    audio.controls = true;
+                    audio.setAttribute('aria-label', 'Réponse vocale du chatbot');
+                    audio.innerHTML = `<source src="${data.audio}" type="audio/mpeg">`;
+                    contentDiv.appendChild(document.createElement('br'));
+                    contentDiv.appendChild(audio);
+                }
+                const ratingDiv = document.createElement('div');
+                ratingDiv.className = 'mt-2';
+                ratingDiv.innerHTML = `
+                    <button class="like-btn text-green-500 hover:text-green-700" data-id="${data.response_id}" aria-label="Aimer la réponse"><i class="fas fa-thumbs-up"></i></button>
+                    <button class="dislike-btn text-red-500 hover:text-red-700" data-id="${data.response_id}" aria-label="Ne pas aimer la réponse"><i class="fas fa-thumbs-down"></i></button>
+                `;
+                contentDiv.appendChild(ratingDiv);
+                div.appendChild(contentDiv);
+            }
+            chatbox.insertBefore(div, responseForm);
+            chatbox.scrollTop = chatbox.scrollHeight;
+            div.focus();
+        }
+
+        function showSuccessMessage(message) {
+            console.log('Showing success message:', message); // Débogage
+            const alert = document.createElement('div');
+            alert.className = 'alert-success';
+            alert.textContent = message;
+            chatbox.insertBefore(alert, responseForm);
+            chatbox.scrollTop = chatbox.scrollHeight;
+            setTimeout(() => alert.remove(), 5000);
+        }
+
+        function updateHistory() {
+            historyBox.innerHTML = '';
+            conversations.forEach(conv => {
+                const userDiv = document.createElement('div');
+                userDiv.className = 'chat-bubble-user';
+                userDiv.textContent = escapeHTML(conv.question);
+                historyBox.appendChild(userDiv);
+
+                const botDiv = document.createElement('div');
+                botDiv.className = 'chat-bubble-bot';
+                const strong = document.createElement('strong');
+                strong.textContent = 'Chatbot : ';
+                botDiv.appendChild(strong);
+                botDiv.appendChild(document.createTextNode(escapeHTML(conv.answer)));
+                if (conv.link) {
+                    botDiv.appendChild(document.createElement('br'));
+                    const link = document.createElement('a');
+                    link.href = escapeHTML(conv.link);
+                    link.className = 'text-blue-500 underline';
+                    link.target = '_blank';
+                    link.textContent = 'Lien';
+                    botDiv.appendChild(link);
+                }
+                botDiv.appendChild(document.createElement('br'));
+                const categoryStrong = document.createElement('strong');
+                categoryStrong.textContent = 'Catégorie : ';
+                botDiv.appendChild(categoryStrong);
+                botDiv.appendChild(document.createTextNode(escapeHTML(conv.category)));
+                botDiv.appendChild(document.createElement('br'));
+                const ratingStrong = document.createElement('strong');
+                ratingStrong.textContent = 'Évaluation : ';
+                botDiv.appendChild(ratingStrong);
+                botDiv.appendChild(document.createTextNode(escapeHTML(conv.rating)));
+                historyBox.appendChild(botDiv);
+            });
+            historyBox.scrollTop = historyBox.scrollHeight;
+        }
+
+        function updateInterfaceLang(lang) {
+            console.log('Updating interface language:', lang); // Débogage
+            if (!translations[lang]) lang = 'en';
+            const t = translations[lang];
+            document.body.dir = lang === 'ar' ? 'rtl' : 'ltr';
+            document.getElementById('title').textContent = t.title;
+            document.getElementById('pdfLabel').textContent = t.pdfLabel;
+            document.getElementById('imageLabel').textContent = t.imageLabel;
+            document.getElementById('voiceLabel').textContent = t.voiceLabel;
+            document.getElementById('exportLabel').textContent = t.exportLabel;
+            document.getElementById('responsePrompt').querySelector('span').textContent = t.responsePrompt;
+            userInput.placeholder = t.placeholder;
+            newResponse.placeholder = t.newResponse;
+            newLink.placeholder = t.newLink;
+            submitResponse.textContent = t.submit;
+            cancelResponse.textContent = t.cancel;
+        }
+
+        uiLang.addEventListener('change', () => {
+            updateInterfaceLang(uiLang.value);
+        });
+
+        chatForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(chatForm);
+            const message = userInput.value.trim();
+            const pdfFile = formData.get('pdf_file');
+            const imageFile = formData.get('image_file');
+
+            if (!message && !pdfFile.name && !imageFile.name) return;
+
+            if (pdfFile.name && (pdfFile.size > 5 * 1024 * 1024 || !pdfFile.name.endsWith('.pdf'))) {
+                addMessage("Erreur : Le PDF est trop volumineux (max 5 Mo) ou invalide.", false);
+                return;
+            }
+            if (imageFile.name && (imageFile.size > 5 * 1024 * 1024 || !['image/png', 'image/jpeg'].includes(imageFile.type))) {
+                addMessage("Erreur : Seuls les fichiers PNG/JPEG sont acceptés (max 5 Mo).", false);
+                return;
+            }
+
+            sendButton.disabled = true;
+            sendButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+            addMessage(message, true);
+
+            try {
+                console.log('Sending request to /chat'); // Débogage
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    body: formData
+                });
+                if (!response.ok) throw new Error(`Erreur réseau ou serveur: ${response.status}`);
+                const data = await response.json();
+                console.log('Response from /chat:', data); // Débogage
+                if (data.error) throw new Error(data.error);
+
+                const conversation = {
+                    question: message,
+                    answer: data.answer,
+                    link: data.link,
+                    category: data.category,
+                    response_id: data.response_id,
+                    rating: 'Non évalué'
+                };
+                conversations.push(conversation);
+                if (conversations.length > 100) conversations = conversations.slice(-100);
+                localStorage.setItem('conversations', JSON.stringify(conversations));
+                addMessage(data.answer, false, data);
+                updateHistory();
+
+                if (data.ask_for_response) {
+                    console.log('Showing responseForm'); // Débogage
+                    responseForm.classList.remove('hidden');
+                    responseForm.dataset.question = message;
+                    updateInterfaceLang(uiLang.value);
+                    chatbox.scrollTop = chatbox.scrollHeight;
+                    document.getElementById('newResponse').focus();
+                } else {
+                    responseForm.classList.add('hidden');
+                }
+            } catch (error) {
+                console.error('Error in chatForm submit:', error); // Débogage
+                addMessage(`Erreur : ${error.message}. Veuillez réessayer ou contacter le support.`, false);
+            } finally {
+                sendButton.disabled = false;
+                sendButton.innerHTML = '<i class="fas fa-paper-plane"></i>';
+                userInput.value = '';
+            }
+        });
+
+        submitResponse.addEventListener('click', async () => {
+            const question = responseForm.dataset.question;
+            const response = newResponse.value.trim();
+            const link = newLink.value.trim();
+            const category = newCategory.value;
+            if (!response) {
+                showSuccessMessage(translations[uiLang.value].successMessage.replace('réponse', 'Erreur : La réponse ne peut pas être vide.'));
+                return;
+            }
+
+            try {
+                console.log('Submitting response to /add_response'); // Débogage
+                const res = await fetch('/add_response', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question, response, link, category })
+                });
+                if (!res.ok) throw new Error('Erreur lors de l’ajout de la réponse');
+                const data = await res.json();
+                if (data.error) throw new Error(data.error);
+
+                responseForm.classList.add('hidden');
+                newResponse.value = '';
+                newLink.value = '';
+                newCategory.value = 'Général';
+                showSuccessMessage(translations[uiLang.value].successMessage);
+                conversations.push({ question, answer: response, link, category, rating: 'Non évalué' });
+                if (conversations.length > 100) conversations = conversations.slice(-100);
+                localStorage.setItem('conversations', JSON.stringify(conversations));
+                updateHistory();
+            } catch (error) {
+                console.error('Error in submitResponse:', error); // Débogage
+                addMessage(`Erreur : ${error.message}. Veuillez réessayer ou contacter le support.`, false);
+            }
+        });
+
+        cancelResponse.addEventListener('click', () => {
+            console.log('Hiding responseForm'); // Débogage
+            responseForm.classList.add('hidden');
+            newResponse.value = '';
+            newLink.value = '';
+            newCategory.value = 'Général';
+        });
+
+        chatbox.addEventListener('click', async (e) => {
+            if (e.target.classList.contains('like-btn') || e.target.classList.contains('dislike-btn')) {
+                const responseId = e.target.dataset.id;
+                const rating = e.target.classList.contains('like-btn') ? 'like' : 'dislike';
+                try {
+                    console.log('Submitting rating to /rate:', { responseId, rating }); // Débogage
+                    const res = await fetch('/rate', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ response_id: responseId, rating })
+                    });
+                    if (!res.ok) throw new Error('Erreur lors de l’enregistrement de l’évaluation');
+                    const data = await res.json();
+                    if (data.error) throw new Error(data.error);
+
+                    const otherBtn = e.target.classList.contains('like-btn')
+                        ? e.target.parentElement.querySelector('.dislike-btn')
+                        : e.target.parentElement.querySelector('.like-btn');
+                    e.target.classList.add('text-yellow-500', 'font-bold');
+                    otherBtn.classList.remove('text-yellow-500', 'font-bold');
+                    e.target.disabled = true;
+                    otherBtn.disabled = true;
+                    const index = conversations.findIndex(c => c.response_id === responseId);
+                    if (index !== -1) {
+                        conversations[index].rating = rating;
+                        localStorage.setItem('conversations', JSON.stringify(conversations));
+                        updateHistory();
+                    }
+                } catch (error) {
+                    console.error('Error in rating:', error); // Débogage
+                    addMessage(`Erreur : ${error.message}. Veuillez réessayer ou contacter le support.`, false);
+                }
+            }
+        });
+
+        historyButton.addEventListener('click', () => {
+            historyBox.classList.toggle('hidden');
+            chatbox.classList.toggle('hidden');
+            historyButton.classList.toggle('bg-white/30');
+            if (!historyBox.classList.contains('hidden')) {
+                updateHistory();
+            }
+        });
+
+        clearHistoryButton.addEventListener('click', () => {
+            conversations = [];
+            localStorage.setItem('conversations', JSON.stringify(conversations));
+            historyBox.innerHTML = '<p class="text-gray-500">Historique vidé.</p>';
+            chatbox.innerHTML = '<div class="text-gray-500 text-center" id="chatPlaceholder">Commencez à poser vos questions...</div>';
+            chatbox.appendChild(responseForm);
+        });
+
+        exportButton.addEventListener('click', async () => {
+            exportButton.disabled = true;
+            exportButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Exportation...';
+            try {
+                console.log('Exporting conversations to /export_conversations'); // Débogage
+                const response = await fetch('/export_conversations', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ conversations })
+                });
+                if (!response.ok) throw new Error('Erreur lors de l’exportation du PDF');
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'conversation.pdf';
+                a.click();
+                window.URL.revokeObjectURL(url);
+                showSuccessMessage(translations[uiLang.value].successMessage.replace('réponse', 'PDF exporté'));
+            } catch (error) {
+                console.error('Error in export:', error); // Débogage
+                addMessage(`Erreur : ${error.message}. Veuillez réessayer ou contacter le support.`, false);
+            } finally {
+                exportButton.disabled = false;
+                exportButton.innerHTML = '<i class="fas fa-file-export mr-2"></i> <span id="exportLabel">Exporter</span>';
+            }
+        });
+
+        userInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendButton.click();
+        });
+
+        recordButton.addEventListener('click', () => {
+            if (!('SpeechRecognition' in window) && !('webkitSpeechRecognition' in window)) {
+                addMessage("Erreur : Entrée vocale non supportée par ce navigateur.", false);
+                return;
+            }
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+            recognition.lang = uiLang.value;
+            recognition.onstart = () => {
+                recordButton.innerHTML = '<i class="fas fa-circle fa-beat text-red-500"></i>';
+            };
+            recognition.onend = () => {
+                recordButton.innerHTML = '<i class="fas fa-microphone"></i>';
+                recordButton.className = 'animated-button bg-green-500 text-white p-3 rounded-xl hover:bg-green-600';
+            };
+            recognition.onresult = (event) => {
+                userInput.value = event.results[0][0].transcript;
+                document.getElementById('use_voice').checked = true;
+                chatForm.dispatchEvent(new Event('submit'));
+            };
+            recognition.onerror = () => {
+                addMessage("Erreur : Échec de la reconnaissance vocale.", false);
+            };
+            recognition.start();
+        });
+
+        document.getElementById('pdf_file').addEventListener('change', (e) => {
+            const label = document.getElementById('pdfLabel');
+            label.textContent = e.target.files[0] ? `PDF : ${e.target.files[0].name}` : translations[uiLang.value].pdfLabel;
+        });
+
+        document.getElementById('image_file').addEventListener('change', (e) => {
+            const label = document.getElementById('imageLabel');
+            label.textContent = e.target.files[0] ? `Image : ${e.target.files[0].name}` : translations[uiLang.value].imageLabel;
+        });
+
+        sendButton.addEventListener('click', () => {
+            sendButton.classList.add('opacity-50');
+            setTimeout(() => sendButton.classList.remove('opacity-50'), 1000);
+        });
+
+        updateInterfaceLang(uiLang.value);
+    </script>
+</body>
+</html>

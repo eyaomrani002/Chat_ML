@@ -1,0 +1,40 @@
+# Core & Framework
+flask==2.3.2
+jinja2==3.1.2
+bleach==6.0.0
+
+# Machine Learning & NLP
+tensorflow-cpu==2.15.0
+tf-keras==2.15.0
+transformers==4.35.0
+tokenizers==0.14.1
+faiss-cpu==1.7.4
+scikit-learn==1.3.0
+joblib==1.3.2
+nltk==3.8.1
+
+# Computer Vision & PDF Processing
+PyPDF2==3.0.1
+pdfplumber==0.10.2
+pytesseract==0.3.10
+Pillow==10.0.0
+
+# Speech & Translation
+SpeechRecognition==3.10.0
+gTTS==2.3.2
+googletrans==3.1.0a0
+langdetect==1.0.9
+
+# Utilities
+pandas==2.0.3
+numpy==1.26.0
+reportlab==4.0.4
+requests==2.31.0
+
+# PyTorch CPU-only pour Python 3.11
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+
+# Optional for Hugging Face Hub
+huggingface_hub==0.17.3
